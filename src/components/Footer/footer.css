@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: #9f86c0;
+    width: 100vw;
+    height: 80px;
+    text-align: center;
+    border-top: .5px solid #222d3e;
+}
+
+.footer-info {
+    color:#fff;
+    font-family:'Inconsolata', monospace;
+    margin-top: .1rem;
+    font-size: .7rem;
+}
+
+.footer-socials {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: .1rem;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.footer-socials a:hover {
+    color: #000;
+    
+}

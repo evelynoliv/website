@@ -1,0 +1,8 @@
+<svg id="flower" xmlns="http://www.w3.org/2000/svg" width="270" height="280" fill="none" viewBox="0 0 270 580">
+  <path stroke="#222d3e" stroke-linecap="round" stroke-width="10" d="M119.16 122c4.167-38.667 21.5-111.5 63-106.5 26 3.133-29.5 79.5-63 106.5Z" class="petal4"/>
+  <path stroke="#78c4c8" stroke-linecap="round" stroke-width="10" d="M115.66 124.5c-5-40-27.1-121.7-43.5-118.5-31 20.5-2.1 87.7 43.5 118.5Z" class="petal3"/>
+  <path stroke="#222d3e" stroke-linecap="round" stroke-width="10" d="M104.995 126.975c-27.5-31.5-87-80.5-95.5-72-18 27 36.5 76.5 95.5 72Z" class="petal2"/>
+  <path stroke="#74c4c8" stroke-linecap="round" stroke-width="10" d="M112.66 133c-45 10.5-110.316 33-106.5 47.5 10 25 63 22.5 106.5-47.5Z" class="petal1"/>
+  <path stroke="#222d3e" stroke-linecap="round" stroke-width="10" d="M264 574c11.5-38.5-102.5-315-151-447" class="stem"/>
+  <path stroke="#74c4c8" stroke-linecap="round" stroke-width="10" d="M119.16 129c22.5 8 111.165 3 107.5-18.5-7.5-44-93.5-4-107.5 18.5Z" class="petal5"/>
+</svg>

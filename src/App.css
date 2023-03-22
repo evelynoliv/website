@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&display=swap');
+* {
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  width: 100vw;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .background-image {
+  background-attachment: scroll;
+  }
+}

@@ -1,0 +1,132 @@
+.navbar {
+  width: 100%;
+  height: 64px;
+  top: 0;
+  position: fixed;
+  /* color: #ebeff0; */
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.menu {
+  position: fixed;
+  right: 2rem;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  z-index: 10;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+
+.line1 {
+  width: 100%;
+  border-radius: 5px;
+  height: 2px;
+  background: #5f667e; 
+  margin-top: -.5rem;
+}
+  
+.line2 {
+  width: 80%;
+  border-radius: 5px;
+  height: 2px;
+  margin-top: .7rem;
+  background: #5f667e;
+}
+
+.menu-page {
+  position: fixed;
+  top:0;
+  right: 0;
+  background: #9f86c0;
+  width: 30%;
+  height: 100vh;
+  z-index: 2;
+}
+
+/*--Page Links--*/
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  color: #212121;
+  padding: 1rem;
+}
+
+.menu-links li {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  border-bottom: .5px solid #545353;
+}
+
+.menu-links li a {
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #ebeff0;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.menu-links li a:hover {
+  color:#000;
+}
+
+
+
+.menu-links button:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+/*--Social Media Links--*/
+.menu-socials {
+  font-size: 2rem;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+  
+.menu-socials a {
+  text-decoration: none;
+  color: #ebeff0;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+  
+.menu-socials a:hover {
+    color: #000;
+}
+
+/*-- MEDIA QUERIES--*/
+
+@media only screen and (min-width: 576px) and (max-width: 945px) {
+    .menu-page {
+      width: 40%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+    .menu-page {
+      width: 55%;
+    }
+}
