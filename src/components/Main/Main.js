@@ -229,6 +229,7 @@ const Main = () => {
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>CSS</span>
                 <span>MySQL</span>
                <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Git</span>
+               <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Styled Components</span>
                 <span>Github</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Node.js</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>JSON</span>

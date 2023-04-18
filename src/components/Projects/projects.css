@@ -85,7 +85,7 @@
 .projects-grid img {
     display: flex;
     margin: auto;
-    width: 60%;
+    width: 50%;
     border: 1px none transparent;
     border-radius: 4px;
     box-shadow: 8px 8px 22px -15px rgba(0,0,0,0.75);

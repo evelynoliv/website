@@ -1,6 +1,8 @@
 import { useState, useLayoutEffect } from 'react';
 import localizaAPI from '../../assets/images/localizaAPI.png';
 import pingPong from '../../assets/images/pingPong.png';
+import crud from '../../assets/images/crud.png';
+import tictactoe from '../../assets/images/tictactoe.png';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BsGlobe2 } from 'react-icons/bs';
 import { gsap } from 'gsap';
@@ -119,7 +121,7 @@ const Projects = () => {
                     </div>
 
                     <div className="project-one-info">
-                        <h3><span className="underline">Localiza AI<span>.</span><div className="highlights"></div></span></h3>
+                        <h3><span className="underline">Localiza AI<div className="highlights"></div></span></h3>
                         Consuming the IBGE API to show a list about States and Counties, using React and Redux.
                         <br />
                         <div className="code-info">
@@ -129,29 +131,28 @@ const Projects = () => {
                     </div>
 
                     <div className="project-two">
-                        <a href="https://ping-pong-hazel.vercel.app/"><img src={pingPong} alt="Ping Pong" /></a>
+                        <a href="https://ping-pong-hazel.vercel.app/"><img src={crud} alt="Ping Pong" /></a>
                     </div>
                     <div className="project-two-info">
-                        <h3><span className="underline">Ping Pong Game<div className="highlights"></div></span></h3>
-                        A  clone of the Ping Pong Game using Javacript, HTML and CSS;
+                        <h3><span className="underline">React CRUD<div className="highlights"></div></span></h3>
+                        Application that performs CRUD functions, using React, Styled-Components, React Modal and Moment.
                         <br />
                         <div className="code-info">
-                            <a href="https://github.com/evelynoliv/ping-pong"><AiOutlineGithub /></a>
-                            <a href="https://ping-pong-hazel.vercel.app/"><BsGlobe2 /> </a>
+                            <a href="https://github.com/evelynoliv/front-end-delivery"><AiOutlineGithub /></a>
+                            <a href="https://codeleap-evelyn.vercel.app/"><BsGlobe2 /> </a>
                         </div>
                     </div>
                     <div className="project-three">
-                        <a href="https://localiza-api.vercel.app/"><img src={localizaAPI} alt="Localiza API" /></a>
+                        <a href="https://localiza-api.vercel.app/"><img src={pingPong} alt="Localiza API" /></a>
                     </div>
 
                     <div className="project-three-info">
-                        <h3><span className="underline">In Progress<span>.</span><div className="highlights"></div></span></h3>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        <h3><span className="underline">Ping Pong<div className="highlights"></div></span></h3>
+                        A  clone of the Ping Pong Game, using Javacript, HTML and CSS;
                         <br />
                         <div className="code-info">
-                            <a href="https://github.com/evelynoliv/localiza-api"><AiOutlineGithub /></a>
-                            <a href="https://localiza-api.vercel.app/"><BsGlobe2 /></a>
+                            <a href="https://github.com/evelynoliv/ping-pong"><AiOutlineGithub /></a>
+                            <a href="https://ping-pong-hazel.vercel.app/"><BsGlobe2 /></a>
                         </div>
                     </div>
                     <div className="project-four">
