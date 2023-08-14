@@ -2,7 +2,7 @@ import { useState, useLayoutEffect } from 'react';
 import localizaAPI from '../../assets/images/localizaAPI.png';
 import pingPong from '../../assets/images/pingPong.png';
 import crud from '../../assets/images/crud.png';
-import tictactoe from '../../assets/images/tictactoe.png';
+import museulight from '../../assets/images/museulight.png';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BsGlobe2 } from 'react-icons/bs';
 import { gsap } from 'gsap';
@@ -131,7 +131,7 @@ const Projects = () => {
                     </div>
 
                     <div className="project-two">
-                        <a href="https://ping-pong-hazel.vercel.app/"><img src={crud} alt="Ping Pong" /></a>
+                        <a href="https://codeleap-evelyn.vercel.app/"><img src={crud} alt="Ping Pong" /></a>
                     </div>
                     <div className="project-two-info">
                         <h3><span className="underline">React CRUD<div className="highlights"></div></span></h3>
@@ -142,9 +142,11 @@ const Projects = () => {
                             <a href="https://codeleap-evelyn.vercel.app/"><BsGlobe2 /> </a>
                         </div>
                     </div>
+
                     <div className="project-three">
-                        <a href="https://localiza-api.vercel.app/"><img src={pingPong} alt="Localiza API" /></a>
+                        <a href="https://ping-pong-hazel.vercel.app//"><img src={pingPong} alt="Localiza API" /></a>
                     </div>
+                     
 
                     <div className="project-three-info">
                         <h3><span className="underline">Ping Pong<div className="highlights"></div></span></h3>
@@ -155,18 +157,18 @@ const Projects = () => {
                             <a href="https://ping-pong-hazel.vercel.app/"><BsGlobe2 /></a>
                         </div>
                     </div>
+
                     <div className="project-four">
-                        <a href="https://localiza-api.vercel.app/"><img src={localizaAPI} alt="Localiza API" /></a>
+                        <a href="https://app.museulight.com.br/"><img src={museulight} alt="Localiza API" /></a>
                     </div>
 
                     <div className="project-four-info">
-                        <h3><span className="underline">In Progress<span>.</span><div className="highlights"></div></span></h3>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                        <h3><span className="underline">Web App Light <div className="highlights"></div></span></h3>
+                        Web App builded for a interactive experience during the visiting on The Light Musem. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervisation)
                         <br />
                         <div className="code-info">
-                            <a href="https://github.com/evelynoliv/localiza-api"><AiOutlineGithub /></a>
-                            <a href="https://localiza-api.vercel.app/"><BsGlobe2 /></a>
+                            
+                            <a href="https://app.museulight.com.br/"><BsGlobe2 /></a>
                         </div>
                     </div>
                     
