@@ -144,34 +144,35 @@ const Projects = () => {
                     </div>
 
                     <div className="project-three">
-                        <a href="https://ping-pong-hazel.vercel.app//"><img src={pingPong} alt="Localiza API" /></a>
+                        <a href="https://ping-pong-hazel.vercel.app//"><img src={museulight} alt="Localiza API" /></a>
                     </div>
-                     
+
 
                     <div className="project-three-info">
-                        <h3><span className="underline">Ping Pong<div className="highlights"></div></span></h3>
+                        <h3><span className="underline">Web App Light<div className="highlights"></div></span></h3>
+                        Web App builded for a interactive experience during the visiting on The Light Musem. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervision)
                         A  clone of the Ping Pong Game, using Javacript, HTML and CSS;
-                        <br />
-                        <div className="code-info">
-                            <a href="https://github.com/evelynoliv/ping-pong"><AiOutlineGithub /></a>
-                            <a href="https://ping-pong-hazel.vercel.app/"><BsGlobe2 /></a>
-                        </div>
-                    </div>
-
-                    <div className="project-four">
-                        <a href="https://app.museulight.com.br/"><img src={museulight} alt="Localiza API" /></a>
-                    </div>
-
-                    <div className="project-four-info">
-                        <h3><span className="underline">Web App Light <div className="highlights"></div></span></h3>
-                        Web App builded for a interactive experience during the visiting on The Light Musem. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervisation)
                         <br />
                         <div className="code-info">
                             
                             <a href="https://app.museulight.com.br/"><BsGlobe2 /></a>
                         </div>
+                    </div>div
+
+                    <div className="project-four">
+                        <a href="https://app.museulight.com.br/"><img src={pingPong} alt="Museu Light" /></a>
                     </div>
-                    
+
+                    <div className="project-four-info">
+                        <h3><span className="underline">Ping Pong Game <div className="highlights"></div></span></h3>
+                        A clone of the Ping Pong Game, using Javacript, HTML and CSS;
+                        <br />
+                        <div className="code-info">
+                            <a href="https://github.com/evelynoliv/ping-pong"><AiOutlineGithub /></a>
+                            <a href="https://ping-pong-hazel.vercel.app"><BsGlobe2 /></a>
+                        </div>
+                    </div>
+
 
 
                 </div>
@@ -183,16 +184,16 @@ const Projects = () => {
                         </h3>
                     </button>
                     {showMore && <p>
-                        
+
                         <a href="https://github.com/evelynoliv/qrcode-generator">QR Code Generator</a>
                         <br />
                         <a href="https://github.com/evelynoliv/react-crud">React CRUD</a>
                         <br />
 
                         {/* <a href="">In Progress</a> */}
-                        
+
                         {/* <a href="">Example</a><a href="" style={{ color: "#222d3e", paddingLeft: "15px" }}><AiOutlineGithub /></a> */}
-                        
+
                     </p>}
 
                 </div>
