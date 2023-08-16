@@ -129,7 +129,7 @@
 .project-one-info {
     grid-area: 1/2; 
     margin: 38px;
-    margin-left: -8rem;;
+    margin-left: -5rem;;
     width: 80%;
     font-family:'Inconsolata', monospace;
     font-size: 1.2rem;
@@ -185,14 +185,14 @@
 
 .project-four-info {
     grid-area: 4/1;
-    width: 80%;
+    width: 51%;
     font-family:'Inconsolata', monospace;
     font-size: 1.2rem;
     letter-spacing: .5px;
     color:#fff;
     text-align: left;
     margin-top: 7rem;
-    margin-left: 31rem;
+    margin-left: 47rem;
     margin-bottom: 7rem;
 }
 
@@ -252,7 +252,7 @@
 
 
     .projects-grid img {
-        width: 85%;
+        width: 50%;
         
     }
 
