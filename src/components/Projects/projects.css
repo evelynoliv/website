@@ -128,7 +128,8 @@
 
 .project-one-info {
     grid-area: 1/2; 
-    margin: 0 auto;
+    margin: 38px;
+    margin-left: -8rem;;
     width: 80%;
     font-family:'Inconsolata', monospace;
     font-size: 1.2rem;
@@ -153,8 +154,8 @@
     margin: 0 auto;
     text-align: left;
     z-index: 1;
-    margin-top: 5rem;
-    margin-left: 3rem; 
+    margin-top: 9rem;
+    margin-left: 23rem; 
 }
 
 .project-three {
@@ -171,8 +172,8 @@
     letter-spacing: .5px;
     color:#fff;
     margin: auto;
-    margin-top: 5rem;
-    margin-left: 3rem;
+    margin-top: 7rem;
+    margin-left: -9rem;
 }
 
 .project-four {
@@ -190,9 +191,9 @@
     letter-spacing: .5px;
     color:#fff;
     text-align: left;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    margin-bottom: 5rem;
+    margin-top: 7rem;
+    margin-left: 31rem;
+    margin-bottom: 7rem;
 }
 
 .project-one, .project-two, .project-three, .project-four {
