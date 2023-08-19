@@ -151,7 +151,7 @@ const Projects = () => {
                     <div className="project-three-info">
                         <h3><span className="underline">Web App Light<div className="highlights"></div></span></h3>
                         Web App builded for a interactive experience during the visiting on The Light Musem. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervision)
-                        A  clone of the Ping Pong Game, using Javacript, HTML and CSS;
+                    
                         <br />
                         <div className="code-info">
                             
