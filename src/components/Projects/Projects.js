@@ -131,7 +131,7 @@ const Projects = () => {
                     </div>
 
                     <div className="project-two">
-                        <a href="https://codeleap-evelyn.vercel.app/"><img src={crud} alt="Ping Pong" /></a>
+                        <a href="https://codeleap-evelyn.vercel.app/"><img src={crud} alt="React Crud" /></a>
                     </div>
                     <div className="project-two-info">
                         <h3><span className="underline">React CRUD<div className="highlights"></div></span></h3>
@@ -144,13 +144,13 @@ const Projects = () => {
                     </div>
 
                     <div className="project-three">
-                        <a href="https://ping-pong-hazel.vercel.app//"><img src={museulight} alt="Localiza API" /></a>
+                        <a href="https://ping-pong-hazel.vercel.app//"><img src={museulight} alt="Web App Light" /></a>
                     </div>
 
 
                     <div className="project-three-info">
                         <h3><span className="underline">Web App Light<div className="highlights"></div></span></h3>
-                        Web App builded for a interactive experience during the visiting on The Light Musem. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervision)
+                        Web App builded for a interactive experience during the visiting on The Light Museum. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervision)
                     
                         <br />
                         <div className="code-info">
@@ -160,7 +160,7 @@ const Projects = () => {
                     </div>div
 
                     <div className="project-four">
-                        <a href="https://app.museulight.com.br/"><img src={pingPong} alt="Museu Light" /></a>
+                        <a href="https://ping-pong-hazel.vercel.app"><img src={pingPong} alt="Ping Pong" /></a>
                     </div>
 
                     <div className="project-four-info">
@@ -187,7 +187,7 @@ const Projects = () => {
 
                         <a href="https://github.com/evelynoliv/qrcode-generator">QR Code Generator</a>
                         <br />
-                        <a href="https://github.com/evelynoliv/react-crud">React CRUD</a>
+                        <a href="https://github.com/evelynoliv/react-crud">Ping Pong Clone</a>
                         <br />
 
                         {/* <a href="">In Progress</a> */}
