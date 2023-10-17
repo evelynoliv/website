@@ -119,7 +119,6 @@ const Projects = () => {
                     <div className="project-one">
                         <a href="https://localiza-api.vercel.app/"><img src={localizaAPI} alt="Localiza API" /></a>
                     </div>
-
                     <div className="project-one-info">
                         <h3><span className="underline">Localiza AI<div className="highlights"></div></span></h3>
                         Consuming the IBGE API to show a list about States and Counties, using React and Redux.
@@ -144,25 +143,21 @@ const Projects = () => {
                     </div>
 
                     <div className="project-three">
-                        <a href="https://ping-pong-hazel.vercel.app//"><img src={museulight} alt="Web App Light" /></a>
+                        <a href="https://app.museulight.com.br/"><img src={museulight} alt="Web App Light" /></a>
                     </div>
-
-
                     <div className="project-three-info">
                         <h3><span className="underline">Web App Light<div className="highlights"></div></span></h3>
                         Web App builded for a interactive experience during the visiting on The Light Museum. Mobile first, acessible via Aria Label, using React, HTML, CSS, Bootsrapt and QR-Code. (Project created under Super Uber supervision)
-                    
                         <br />
                         <div className="code-info">
-                            
+
                             <a href="https://app.museulight.com.br/"><BsGlobe2 /></a>
                         </div>
-                    </div>div
+                    </div>
 
                     <div className="project-four">
                         <a href="https://ping-pong-hazel.vercel.app"><img src={pingPong} alt="Ping Pong" /></a>
                     </div>
-
                     <div className="project-four-info">
                         <h3><span className="underline">Ping Pong Game <div className="highlights"></div></span></h3>
                         A clone of the Ping Pong Game, using Javacript, HTML and CSS;
