@@ -196,11 +196,31 @@
     margin-bottom: 7rem;
 }
 
-.project-one, .project-two, .project-three, .project-four {
+.project-five {
+    grid-area: 5/1;
+    place-self: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    /* background-color: red; */
+}
+
+.project-five-info {
+    grid-area: 5/1;
+    margin: 38px;
+    margin-left: 34rem;;
+    width: 80%;
+    font-family:'Inconsolata', monospace;
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    color:#fff;
+    /* background-color: red; */
+}
+
+.project-one, .project-two, .project-three, .project-four, .project-five {
     transition-duration: 1s;   
 }
 
-.project-one:hover, .project-two:hover, .project-three:hover, .project-four:hover {
+.project-one:hover, .project-two:hover, .project-three:hover, .project-four:hover, .project-five:hover {
     filter:brightness(120%);
     scale: 1.02;
 }
@@ -250,13 +270,12 @@
     }
 
 
-
     .projects-grid img {
         width: 50%;
         
     }
 
-    .project-one-info, .project-two-info, .project-three-info, .project-four-info {
+    .project-one-info, .project-two-info, .project-three-info, .project-four-info, .project-five-info {
         font-size: 1.1rem;
         width: 90%;
         margin-left: 1rem;
@@ -272,6 +291,12 @@
     }
 
     .project-four-info {
+        margin-top: 7rem;
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .project-five-info {
         margin-top: 7rem;
         width: 95%;
         margin-bottom: 2rem;
@@ -336,13 +361,13 @@
         width: 100%;
     }
 
-    .project-one, .project-two, .project-three {
+    .project-one, .project-two, .project-three, .project-four, .project-five {
       align-items: center;
       margin: 2rem;
      
     }
 
-    .project-one-info, .project-two-info, .project-three-info {
+    .project-one-info, .project-two-info, .project-three-info, .project-four-info, .project-five-info {
         text-align: center;
         margin: 0 auto;
     }
