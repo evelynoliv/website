@@ -2,6 +2,7 @@ import { useState, useLayoutEffect } from 'react';
 import localizaAPI from '../../assets/images/localizaAPI.png';
 import pingPong from '../../assets/images/pingPong.png';
 import crud from '../../assets/images/crud.png';
+import comingSoon from '../../assets/images/comingSoon.png'
 import museulight from '../../assets/images/museulight.png';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BsGlobe2 } from 'react-icons/bs';
@@ -165,6 +166,19 @@ const Projects = () => {
                         <div className="code-info">
                             <a href="https://github.com/evelynoliv/ping-pong"><AiOutlineGithub /></a>
                             <a href="https://ping-pong-hazel.vercel.app"><BsGlobe2 /></a>
+                        </div>
+                    </div>
+
+                    <div className="project-five">
+                        <a href="https://github.com/evelynoliv/"><img src={comingSoon} alt="Ping Pong" /></a>
+                    </div>
+                    <div className="project-five-info">
+                        <h3><span className="underline">Coming Soon <div className="highlights"></div></span></h3>
+                        Under construction;
+                        <br />
+                        <div className="code-info">
+                            <a href="https://github.com/evelynoliv/"><AiOutlineGithub /></a>
+                            <a href="https://github.com/evelynoliv/"><BsGlobe2 /></a>
                         </div>
                     </div>
 
