@@ -107,7 +107,7 @@ const Projects = () => {
         <div id="projects">
             <div className="projects-container">
                 <h1 className="projects-heading">
-                    Projects<span style={{ color: "#9f86c0" }}>.</span>
+                    Projects<span style={{ color: "#5F18EB" }}>.</span>
                 </h1>
                 <div className="projects-background"></div>
                 <div className="projects-line"></div>

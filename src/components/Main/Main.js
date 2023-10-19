@@ -194,7 +194,7 @@ const Main = () => {
             <div id="backslash" className="layer" data-speed="-5"><FaSlash /></div>
             </div>
             <h1 className="main-heading" ref={name}>
-                Evelyn Oliveira<span style={{color:"#9f86c0", fontSize: "3.2rem"}}>,</span>
+                Evelyn Oliveira<span style={{color:"#5F18EB", fontSize: "3.2rem"}}>,</span>
             </h1>
             <div className="title">
                 Sofwtare developer and amateur dancer.
@@ -202,8 +202,8 @@ const Main = () => {
             <div className="pdf-button">
                </div>
             <div className="page-links">
-                <Link to="/about">About<span style={{color:"#9f86c0"}}>.</span></Link>
-                <Link to="/projects">Projects<span style={{color:"#9f86c0"}}>.</span></Link>
+                <Link to="/about">About<span style={{color:"#5F18EB"}}>.</span></Link>
+                <Link to="/projects">Projects<span style={{color:"#5F18EB"}}>.</span></Link>
             </div>
 
             <div className="mouse-scroll" ref={mouse}>
@@ -215,11 +215,11 @@ const Main = () => {
         </div>
         <div id="intro-section">
             <div className="intro-heading">
-                <h1>Hello World!<span style={{color:"#9f86c0", fontSize:"4rem"}}>.</span></h1>
+                <h1>Hello World!<span style={{color:"#5F18EB", fontSize:"4rem"}}>.</span></h1>
             </div>
             <div className="intro-line"></div>
             <div className="intro-subtitle">
-                <h2> Hi, my name is Evelyn and I am passionate about learning <span style={{color: "#9f86c0"}}>new things</span> and the idea that I can create almost <span style={{color: "#9f86c0"}}>everything</span> through code excites me.
+                <h2> Hi, my name is Evelyn and I am passionate about learning <span style={{color: "#5F18EB"}}>new things</span> and the idea that I can create almost <span style={{color: "#5F18EB"}}>everything</span> through code excites me.
                      I believe that the power of technology can change the world, and I strive to be a part of that change.
                 </h2>
             </div>
@@ -227,6 +227,8 @@ const Main = () => {
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Javascript</span>
                 <span>HTML</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>CSS</span>
+                <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Next.js</span>
+                <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Redux</span>
                 <span>MySQL</span>
                <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Git</span>
                <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Styled Components</span>
