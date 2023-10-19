@@ -17,7 +17,7 @@
 #halfcircle {
   margin-left: 2%;
   top: 100px;
-  color: #9f86c0;
+  color:#5F18EB;
   font-size: 35px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .page-links a:hover {
-  color: #9f86c0;
+  color: #5F18EB
 }
 
 .title-socials {
@@ -171,7 +171,7 @@
 
 .mouse-scroll {
   position: absolute;
-  bottom: 7%;
+  bottom: 9%;
   right: 4.8%;
   padding: 0;
   font-family: 'Inconsolata', monospace;
@@ -181,8 +181,8 @@
 .mouse-scroll a {
   position: relative;
   text-decoration: none;
-  color: #9f86c0;
-  font-size: 11px;
+  color: #5F18EB;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 
@@ -229,7 +229,7 @@
    margin-left: 3rem;
    border-radius: 5px;
    height: 4px;
-   background: #9f86c0;
+   background: #5F18EB;
    margin-top: -2rem;
    margin-bottom: 1rem;
  }
@@ -260,7 +260,7 @@
    font-size: 11px;
    float: right;
    margin-top: -35rem;
-   margin-right: 4%;
+   margin-right: 1%;
    margin-bottom: 5rem;
    text-transform: uppercase;
 }
