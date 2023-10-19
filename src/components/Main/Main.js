@@ -143,11 +143,7 @@ const Main = () => {
 
         const ctx = gsap.context(() => {
 
-            // secondTl.from(".intro-background", {
-            //     ease: "power1.in",
-            //     duration: 1,
-            //     x: "1200",
-            // });
+       
             secondTl.from(".intro-projects", {
                 opacity: 0,
                 ease: "power1.in",
@@ -235,7 +231,7 @@ const Main = () => {
                 <span>Github</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Node.js</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>JSON</span>
-                <span>NPM</span>
+                <span>SEO</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>React</span>
                 <span style={{fontWeight: "bolder", fontSize:"1.5rem", color:"#fff"}}>Expo</span>
                 

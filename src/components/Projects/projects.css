@@ -32,7 +32,6 @@
     margin-left: 3rem;
     border-radius: 5px;
     height: 4px;
-    background: #9f86c0;
     margin-top: -2.5rem;
 }
 
@@ -63,9 +62,16 @@
 }
 
 .code-info {
-    color: red;
-    text-decoration: none;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+    line-height: 2px;
+    text-decoration: none !important;
+    color: #5F18EB;
+    cursor: pointer;
+    /* background-color: red; */
+    width: 30%;
 }
+
 
 .code {
     position: relative;
@@ -139,8 +145,8 @@
 
 .project-two {
     grid-area: 2/2;
-    place-self: center;
-    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
     margin-top: 5rem;
 }
 
@@ -155,7 +161,7 @@
     text-align: left;
     z-index: 1;
     margin-top: 9rem;
-    margin-left: 18rem; 
+    margin-left: 13rem; 
 }
 
 .project-three {
@@ -173,7 +179,7 @@
     color:#fff;
     margin: auto;
     margin-top: 7rem;
-    margin-left: -9rem;
+    margin-left: -5rem;
 }
 
 .project-four {
@@ -192,7 +198,7 @@
     color:#fff;
     text-align: left;
     margin-top: 7rem;
-    margin-left: 30rem;
+    margin-left: 10rem;
     margin-bottom: 7rem;
 }
 

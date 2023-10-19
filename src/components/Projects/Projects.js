@@ -111,7 +111,7 @@ const Projects = () => {
                 </h1>
                 <div className="projects-background"></div>
                 <div className="projects-line"></div>
-                <div className="projects-scroll">
+                <div className="projects-scroll" style={{ color: "#5F18EB" }}>
                     Scroll
                     <div className="projects-scroll-line"></div>
                 </div>
@@ -170,15 +170,15 @@ const Projects = () => {
                     </div>
 
                     <div className="project-five">
-                        <a href="https://github.com/evelynoliv/"><img src={comingSoon} alt="Ping Pong" /></a>
+                        <a href="https://app.museulight.com.br/"><img src={comingSoon} alt="Web App Light" /></a>
                     </div>
                     <div className="project-five-info">
-                        <h3><span className="underline">Coming Soon <div className="highlights"></div></span></h3>
-                        Under construction;
+                        <h3><span className="underline">Coming Soon<div className="highlights"></div></span></h3>
+                        Under construction.
                         <br />
                         <div className="code-info">
-                            <a href="https://github.com/evelynoliv/"><AiOutlineGithub /></a>
-                            <a href="https://github.com/evelynoliv/"><BsGlobe2 /></a>
+
+                            <a href="https://app.museulight.com.br/"><BsGlobe2 /></a>
                         </div>
                     </div>
 
