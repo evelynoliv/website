@@ -197,7 +197,7 @@ const Main = () => {
                 Evelyn Oliveira<span style={{color:"#5F18EB", fontSize: "3.2rem"}}>,</span>
             </h1>
             <div className="title">
-                Sofwtare developer and amateur dancer.
+                Software developer and amateur dancer.
             </div>
             <div className="pdf-button">
                </div>
