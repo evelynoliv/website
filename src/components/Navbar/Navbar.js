@@ -11,7 +11,7 @@ const Navbar = () => {
     const [burgerColor, setBurgerColor] = useState("#fff");
 
     const listenScrollEvent = () => {
-        window.scrollY > 10 ? setNavColor("#9f86c0") : setNavColor("#000");
+        window.scrollY > 10 ? setNavColor("#5F18EB") : setNavColor("#000");
 
         window.scrollY > 10 ? setBurgerColor("#fff") : setBurgerColor("#fff");
     }

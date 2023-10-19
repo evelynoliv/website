@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
 
-    //gsap animation
+ // animation
 
     const aboutTl = gsap.timeline();
 
@@ -110,7 +110,7 @@ const About = () => {
     return (
         <div id="about">
             <div className="heading-background"></div>
-            <h1 className="about-heading">About me<span style={{ color: "#9f86c0" }}>.</span></h1>
+            <h1 className="about-heading">About me<span style={{ color: "#5F18EB" }}>.</span></h1>
             <div className="heading-line"></div>
             <div className="about-info">Over the last years of my career, I worked directly with business and project management, and throughout that time, I always envisioned exploring and working in a different area. My appreciation for learning new things and enthusiasm for technology led me to start a new path and become a software developer. My background in management allows me to have a holistic view of the project and ensure efficiency in deliveries. Currently, I am working as a software developer contributing to the creation of innovative projects.</div>
 
