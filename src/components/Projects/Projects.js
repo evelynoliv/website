@@ -196,7 +196,7 @@ const Projects = () => {
 
                         <a href="https://github.com/evelynoliv/qrcode-generator">QR Code Generator</a>
                         <br />
-                        <a href="https://github.com/evelynoliv/react-crud">Ping Pong Clone</a>
+                        <a href="https://github.com/evelynoliv/face_recognition/">Face Recognition</a>
                         <br />
 
                         {/* <a href="">In Progress</a> */}
