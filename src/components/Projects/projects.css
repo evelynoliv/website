@@ -191,7 +191,7 @@
 
 .project-four-info {
     grid-area: 4/1;
-    width: 51%;
+    width: 80%;
     font-family:'Inconsolata', monospace;
     font-size: 1.2rem;
     letter-spacing: .5px;
@@ -219,8 +219,7 @@
     font-size: 1.2rem;
     letter-spacing: .5px;
     color:#fff;
-    transform: translate(0px, 0px);
-    opacity: 1;
+  
     /* background-color: red; */
 }
 
@@ -237,6 +236,7 @@
     margin-left: 4rem;
 }
 
+
 .show-more button {
     background: transparent;
     border: none;
@@ -246,12 +246,18 @@
     color: #fff;
 }
 
+.show-more button:hover{
+    color: #5F18EB;
+    cursor: pointer;
+
+}
+
 .show-more p {
     margin-left: 4rem;  
 }
 
 .show-more p a {
-    color: #78c4c8;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: bolder;
     letter-spacing: .5px;
@@ -260,7 +266,8 @@
 }
 
 .show-more p a:hover {
-    color: #222d3e;
+    color: #5F18EB;
+    cursor: pointer;
 }
 
 
