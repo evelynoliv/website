@@ -206,14 +206,14 @@
     grid-area: 5/1;
     place-self: center;
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     /* background-color: red; */
 }
 
 .project-five-info {
     grid-area: 5/1;
-    margin: 38px;
-    margin-left: 34rem;;
+    margin: 78px;
+    margin-left: 40rem;;
     width: 80%;
     font-family:'Inconsolata', monospace;
     font-size: 1.2rem;
