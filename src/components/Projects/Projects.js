@@ -90,6 +90,12 @@ const Projects = () => {
             tlTwo.from('.project-four-info', {
                 opacity: 0, duration: 1, delay: .1, y: -15
             })
+            tlTwo.from('.project-five img', {
+                opacity: 0, duration: 1, delay: .1,
+            });
+            tlTwo.from('.project-five-info', {
+                opacity: 0, duration: 1, delay: .1, y: -15
+            })
         })
         return () => ctx.revert()
 
@@ -208,6 +214,7 @@ const Projects = () => {
                 </div>
             </section>
         </div>
+        
     )
 }
 
